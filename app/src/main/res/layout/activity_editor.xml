@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RootLayoutEdit">
+
+    <RelativeLayout style="@style/RelativeLayoutEdit">
+
+        <ImageView
+            android:id="@+id/editPicture"
+            style="@style/ImageViewEdit" />
+
+        <TextView
+            android:id="@+id/clickToAddPicture"
+            style="@style/ImageTextEdit"
+            android:text="@string/clickToAddPicture" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        style="@style/EditTextEdit"
+        android:hint="@string/hintName" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        style="@style/EditTextEdit"
+        android:hint="@string/hintPrice"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/supplierNameEditText"
+        style="@style/EditTextEdit"
+        android:hint="@string/hintSupplierName" />
+
+    <EditText
+        android:id="@+id/supplierEmailEditText"
+        style="@style/EditTextEdit"
+        android:hint="@string/hintSupplierEmail"
+        android:inputType="textEmailAddress" />
+
+    <LinearLayout style="@style/LinearLayoutEdit">
+
+        <Button
+            android:id="@+id/editDecreaseQuantity"
+            style="@style/ButtonEdit"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/editQuantityNumber"
+            style="@style/TextViewEdit"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/editIncreaseQuantity"
+            style="@style/ButtonEdit"
+            android:text="+" />
+    </LinearLayout>
+
+</LinearLayout>

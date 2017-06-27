@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutMargin">16dp</dimen>
+    <dimen name="paddingTop">8dp</dimen>
+    <dimen name="paddingBottom">5dp</dimen>
+
+    <dimen name="imageViewHeight">150dp</dimen>
+    <dimen name="clickToAddPicture">32sp</dimen>
+    <dimen name="editLayoutButtonText">36sp</dimen>
+    <dimen name="listItemHeight">100dp</dimen>
+    <dimen name="quantityLabelBottomMargin">26dp</dimen>
+</resources>
